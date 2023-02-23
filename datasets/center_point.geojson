@@ -1,0 +1,6789 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "dong_name": "서울특별시 종로구 청운효자동",
+        "dong_code": "1101072",
+        "dong_code_8": "11110515"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96869,
+          37.58517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "dong_name": "서울특별시 종로구 사직동",
+        "dong_code": "1101053",
+        "dong_code_8": "11110530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96954,
+          37.57526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "dong_name": "서울특별시 종로구 삼청동",
+        "dong_code": "1101054",
+        "dong_code_8": "11110540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98292,
+          37.58658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "dong_name": "서울특별시 종로구 부암동",
+        "dong_code": "1101055",
+        "dong_code_8": "11110550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96043,
+          37.59736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "dong_name": "서울특별시 종로구 평창동",
+        "dong_code": "1101056",
+        "dong_code_8": "11110560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97034,
+          37.61147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "dong_name": "서울특별시 종로구 무악동",
+        "dong_code": "1101057",
+        "dong_code_8": "11110570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95747,
+          37.57875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "dong_name": "서울특별시 종로구 교남동",
+        "dong_code": "1101058",
+        "dong_code_8": "11110580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96532,
+          37.56999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "dong_name": "서울특별시 종로구 가회동",
+        "dong_code": "1101060",
+        "dong_code_8": "11110600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98622,
+          37.58411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "dong_name": "서울특별시 종로구 종로1·2·3·4가동",
+        "dong_code": "1101061",
+        "dong_code_8": "11110615"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99086,
+          37.57551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "dong_name": "서울특별시 종로구 종로5·6가동",
+        "dong_code": "1101063",
+        "dong_code_8": "11110630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00479,
+          37.57356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "dong_name": "서울특별시 종로구 이화동",
+        "dong_code": "1101064",
+        "dong_code_8": "11110640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00201,
+          37.58054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "dong_name": "서울특별시 종로구 혜화동",
+        "dong_code": "1101073",
+        "dong_code_8": "11110650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00071,
+          37.58751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "dong_name": "서울특별시 종로구 창신1동",
+        "dong_code": "1101067",
+        "dong_code_8": "11110670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01485,
+          37.57113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "dong_name": "서울특별시 종로구 창신2동",
+        "dong_code": "1101068",
+        "dong_code_8": "11110680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00994,
+          37.57603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "dong_name": "서울특별시 종로구 창신3동",
+        "dong_code": "1101069",
+        "dong_code_8": "11110690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01316,
+          37.57995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "dong_name": "서울특별시 종로구 숭인1동",
+        "dong_code": "1101070",
+        "dong_code_8": "11110700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01703,
+          37.57704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "dong_name": "서울특별시 종로구 숭인2동",
+        "dong_code": "1101071",
+        "dong_code_8": "11110710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01911,
+          37.57436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "dong_name": "서울특별시 중구 소공동",
+        "dong_code": "1102052",
+        "dong_code_8": "11140520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97492,
+          37.56475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "dong_name": "서울특별시 중구 회현동",
+        "dong_code": "1102054",
+        "dong_code_8": "11140540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9796,
+          37.55636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "dong_name": "서울특별시 중구 명동",
+        "dong_code": "1102055",
+        "dong_code_8": "11140550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98444,
+          37.56216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "dong_name": "서울특별시 중구 필동",
+        "dong_code": "1102057",
+        "dong_code_8": "11140570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99416,
+          37.55767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "dong_name": "서울특별시 중구 장충동",
+        "dong_code": "1102058",
+        "dong_code_8": "11140580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00171,
+          37.55503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "dong_name": "서울특별시 중구 광희동",
+        "dong_code": "1102059",
+        "dong_code_8": "11140590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00271,
+          37.5648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "dong_name": "서울특별시 중구 을지로동",
+        "dong_code": "1102060",
+        "dong_code_8": "11140605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9966,
+          37.56621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "dong_name": "서울특별시 중구 신당동",
+        "dong_code": "1102069",
+        "dong_code_8": "11140615"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01375,
+          37.56763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "dong_name": "서울특별시 중구 다산동",
+        "dong_code": "1102070",
+        "dong_code_8": "11140625"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00667,
+          37.55183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "dong_name": "서울특별시 중구 약수동",
+        "dong_code": "1102071",
+        "dong_code_8": "11140635"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01063,
+          37.55076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "dong_name": "서울특별시 중구 청구동",
+        "dong_code": "1102072",
+        "dong_code_8": "11140645"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01536,
+          37.55681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "dong_name": "서울특별시 중구 신당5동",
+        "dong_code": "1102065",
+        "dong_code_8": "11140650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02293,
+          37.56265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "dong_name": "서울특별시 중구 동화동",
+        "dong_code": "1102073",
+        "dong_code_8": "11140665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01865,
+          37.56026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "dong_name": "서울특별시 중구 황학동",
+        "dong_code": "1102067",
+        "dong_code_8": "11140670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02041,
+          37.56816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "dong_name": "서울특별시 중구 중림동",
+        "dong_code": "1102068",
+        "dong_code_8": "11140680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9648,
+          37.55775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "dong_name": "서울특별시 용산구 후암동",
+        "dong_code": "1103051",
+        "dong_code_8": "11170510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97985,
+          37.55205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "dong_name": "서울특별시 용산구 용산2가동",
+        "dong_code": "1103052",
+        "dong_code_8": "11170520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98656,
+          37.53772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "dong_name": "서울특별시 용산구 남영동",
+        "dong_code": "1103053",
+        "dong_code_8": "11170530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97293,
+          37.54514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 36,
+        "dong_name": "서울특별시 용산구 청파동",
+        "dong_code": "1103071",
+        "dong_code_8": "11170555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96805,
+          37.54947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "dong_name": "서울특별시 용산구 원효로1동",
+        "dong_code": "1103072",
+        "dong_code_8": "11170560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96574,
+          37.53578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "dong_name": "서울특별시 용산구 원효로2동",
+        "dong_code": "1103057",
+        "dong_code_8": "11170570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95294,
+          37.53427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "dong_name": "서울특별시 용산구 효창동",
+        "dong_code": "1103058",
+        "dong_code_8": "11170580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96123,
+          37.54141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "dong_name": "서울특별시 용산구 용문동",
+        "dong_code": "1103059",
+        "dong_code_8": "11170590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95993,
+          37.53835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 41,
+        "dong_name": "서울특별시 용산구 한강로동",
+        "dong_code": "1103073",
+        "dong_code_8": "11170625"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96554,
+          37.5297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "dong_name": "서울특별시 용산구 이촌1동",
+        "dong_code": "1103063",
+        "dong_code_8": "11170630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97117,
+          37.51914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "dong_name": "서울특별시 용산구 이촌2동",
+        "dong_code": "1103064",
+        "dong_code_8": "11170640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95456,
+          37.52398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "dong_name": "서울특별시 용산구 이태원1동",
+        "dong_code": "1103065",
+        "dong_code_8": "11170650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99072,
+          37.53335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45,
+        "dong_name": "서울특별시 용산구 이태원2동",
+        "dong_code": "1103066",
+        "dong_code_8": "11170660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99267,
+          37.54054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "dong_name": "서울특별시 용산구 한남동",
+        "dong_code": "1103074",
+        "dong_code_8": "11170685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00428,
+          37.53984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47,
+        "dong_name": "서울특별시 용산구 서빙고동",
+        "dong_code": "1103069",
+        "dong_code_8": "11170690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98896,
+          37.52219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "dong_name": "서울특별시 용산구 보광동",
+        "dong_code": "1103070",
+        "dong_code_8": "11170700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00076,
+          37.52708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 49,
+        "dong_name": "서울특별시 성동구 왕십리2동",
+        "dong_code": "1104052",
+        "dong_code_8": "11200520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02707,
+          37.56142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 50,
+        "dong_name": "서울특별시 성동구 왕십리도선동",
+        "dong_code": "1104071",
+        "dong_code_8": "11200535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03286,
+          37.56478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "dong_name": "서울특별시 성동구 마장동",
+        "dong_code": "1104054",
+        "dong_code_8": "11200540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04189,
+          37.56729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 52,
+        "dong_name": "서울특별시 성동구 사근동",
+        "dong_code": "1104055",
+        "dong_code_8": "11200550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04509,
+          37.55854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 53,
+        "dong_name": "서울특별시 성동구 행당1동",
+        "dong_code": "1104056",
+        "dong_code_8": "11200560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03604,
+          37.55919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 54,
+        "dong_name": "서울특별시 성동구 행당2동",
+        "dong_code": "1104057",
+        "dong_code_8": "11200570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02978,
+          37.55696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 55,
+        "dong_name": "서울특별시 성동구 응봉동",
+        "dong_code": "1104058",
+        "dong_code_8": "11200580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03401,
+          37.55153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 56,
+        "dong_name": "서울특별시 성동구 금호1가동",
+        "dong_code": "1104059",
+        "dong_code_8": "11200590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02484,
+          37.55348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 57,
+        "dong_name": "서울특별시 성동구 금호2·3가동",
+        "dong_code": "1104072",
+        "dong_code_8": "11200615"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02113,
+          37.55257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 58,
+        "dong_name": "서울특별시 성동구 금호4가동",
+        "dong_code": "1104062",
+        "dong_code_8": "11200620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02425,
+          37.54534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 59,
+        "dong_name": "서울특별시 성동구 옥수동",
+        "dong_code": "1104073",
+        "dong_code_8": "11200645"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01444,
+          37.54264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 60,
+        "dong_name": "서울특별시 성동구 성수1가1동",
+        "dong_code": "1104065",
+        "dong_code_8": "11200650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04194,
+          37.54236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 61,
+        "dong_name": "서울특별시 성동구 성수1가2동",
+        "dong_code": "1104066",
+        "dong_code_8": "11200660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04194,
+          37.54889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 62,
+        "dong_name": "서울특별시 성동구 성수2가1동",
+        "dong_code": "1104067",
+        "dong_code_8": "11200670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05161,
+          37.53932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 63,
+        "dong_name": "서울특별시 성동구 성수2가3동",
+        "dong_code": "1104068",
+        "dong_code_8": "11200690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05894,
+          37.54764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 64,
+        "dong_name": "서울특별시 성동구 송정동",
+        "dong_code": "1104069",
+        "dong_code_8": "11200720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06181,
+          37.55117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 65,
+        "dong_name": "서울특별시 성동구 용답동",
+        "dong_code": "1104070",
+        "dong_code_8": "11200790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05796,
+          37.55804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 66,
+        "dong_name": "서울특별시 광진구 화양동",
+        "dong_code": "1105053",
+        "dong_code_8": "11215710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07849,
+          37.54316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 67,
+        "dong_name": "서울특별시 광진구 군자동",
+        "dong_code": "1105054",
+        "dong_code_8": "11215730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07564,
+          37.55264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 68,
+        "dong_name": "서울특별시 광진구 중곡1동",
+        "dong_code": "1105055",
+        "dong_code_8": "11215740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07765,
+          37.56025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 69,
+        "dong_name": "서울특별시 광진구 중곡2동",
+        "dong_code": "1105056",
+        "dong_code_8": "11215750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08415,
+          37.55735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 70,
+        "dong_name": "서울특별시 광진구 중곡3동",
+        "dong_code": "1105057",
+        "dong_code_8": "11215760"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08335,
+          37.56796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 71,
+        "dong_name": "서울특별시 광진구 중곡4동",
+        "dong_code": "1105058",
+        "dong_code_8": "11215770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09411,
+          37.56885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 72,
+        "dong_name": "서울특별시 광진구 능동",
+        "dong_code": "1105059",
+        "dong_code_8": "11215780"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08122,
+          37.55085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 73,
+        "dong_name": "서울특별시 광진구 광장동",
+        "dong_code": "1105063",
+        "dong_code_8": "11215810"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10417,
+          37.54877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 74,
+        "dong_name": "서울특별시 광진구 자양1동",
+        "dong_code": "1105064",
+        "dong_code_8": "11215820"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08085,
+          37.53513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 75,
+        "dong_name": "서울특별시 광진구 자양2동",
+        "dong_code": "1105065",
+        "dong_code_8": "11215830"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08396,
+          37.53069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 76,
+        "dong_name": "서울특별시 광진구 자양3동",
+        "dong_code": "1105066",
+        "dong_code_8": "11215840"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07251,
+          37.53333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 77,
+        "dong_name": "서울특별시 광진구 자양4동",
+        "dong_code": "1105067",
+        "dong_code_8": "11215847"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06477,
+          37.53322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 78,
+        "dong_name": "서울특별시 광진구 구의1동",
+        "dong_code": "1105060",
+        "dong_code_8": "11215850"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08295,
+          37.54261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 79,
+        "dong_name": "서울특별시 광진구 구의2동",
+        "dong_code": "1105061",
+        "dong_code_8": "11215860"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09473,
+          37.55077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 80,
+        "dong_name": "서울특별시 광진구 구의3동",
+        "dong_code": "1105062",
+        "dong_code_8": "11215870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09374,
+          37.53638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 81,
+        "dong_name": "서울특별시 동대문구 용신동",
+        "dong_code": "1106081",
+        "dong_code_8": "11230536"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03447,
+          37.57639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 82,
+        "dong_name": "서울특별시 동대문구 제기동",
+        "dong_code": "1106082",
+        "dong_code_8": "11230545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03772,
+          37.58342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 83,
+        "dong_name": "서울특별시 동대문구 전농1동",
+        "dong_code": "1106083",
+        "dong_code_8": "11230560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05258,
+          37.57961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 84,
+        "dong_name": "서울특별시 동대문구 전농2동",
+        "dong_code": "1106084",
+        "dong_code_8": "11230570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05952,
+          37.58219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 85,
+        "dong_name": "서울특별시 동대문구 답십리1동",
+        "dong_code": "1106091",
+        "dong_code_8": "11230600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05146,
+          37.57284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 86,
+        "dong_name": "서울특별시 동대문구 답십리2동",
+        "dong_code": "1106086",
+        "dong_code_8": "11230610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0618,
+          37.57094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 87,
+        "dong_name": "서울특별시 동대문구 장안1동",
+        "dong_code": "1106087",
+        "dong_code_8": "11230650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06803,
+          37.56707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 88,
+        "dong_name": "서울특별시 동대문구 장안2동",
+        "dong_code": "1106088",
+        "dong_code_8": "11230660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07227,
+          37.5751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "dong_name": "서울특별시 동대문구 청량리동",
+        "dong_code": "1106080",
+        "dong_code_8": "11230705"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04441,
+          37.58739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 90,
+        "dong_name": "서울특별시 동대문구 회기동",
+        "dong_code": "1106071",
+        "dong_code_8": "11230710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05105,
+          37.59498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 91,
+        "dong_name": "서울특별시 동대문구 휘경1동",
+        "dong_code": "1106072",
+        "dong_code_8": "11230720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06034,
+          37.59134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 92,
+        "dong_name": "서울특별시 동대문구 휘경2동",
+        "dong_code": "1106073",
+        "dong_code_8": "11230730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06332,
+          37.58559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 93,
+        "dong_name": "서울특별시 동대문구 이문1동",
+        "dong_code": "1106089",
+        "dong_code_8": "11230740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05973,
+          37.5962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 94,
+        "dong_name": "서울특별시 동대문구 이문2동",
+        "dong_code": "1106090",
+        "dong_code_8": "11230750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0685,
+          37.60341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 95,
+        "dong_name": "서울특별시 중랑구 면목2동",
+        "dong_code": "1107052",
+        "dong_code_8": "11260520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07877,
+          37.59039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 96,
+        "dong_name": "서울특별시 중랑구 면목4동",
+        "dong_code": "1107054",
+        "dong_code_8": "11260540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09011,
+          37.57112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 97,
+        "dong_name": "서울특별시 중랑구 면목5동",
+        "dong_code": "1107055",
+        "dong_code_8": "11260550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07981,
+          37.58133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 98,
+        "dong_name": "서울특별시 중랑구 면목본동",
+        "dong_code": "1107071",
+        "dong_code_8": "11260565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09048,
+          37.58672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 99,
+        "dong_name": "서울특별시 중랑구 면목7동",
+        "dong_code": "1107057",
+        "dong_code_8": "11260570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09191,
+          37.57667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "dong_name": "서울특별시 중랑구 면목3·8동",
+        "dong_code": "1107072",
+        "dong_code_8": "11260575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09803,
+          37.58452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "dong_name": "서울특별시 중랑구 상봉1동",
+        "dong_code": "1107059",
+        "dong_code_8": "11260580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0879,
+          37.60119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "dong_name": "서울특별시 중랑구 상봉2동",
+        "dong_code": "1107060",
+        "dong_code_8": "11260590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08304,
+          37.59432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "dong_name": "서울특별시 중랑구 중화1동",
+        "dong_code": "1107061",
+        "dong_code_8": "11260600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08333,
+          37.60379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "dong_name": "서울특별시 중랑구 중화2동",
+        "dong_code": "1107062",
+        "dong_code_8": "11260610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07507,
+          37.60008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 105,
+        "dong_name": "서울특별시 중랑구 묵1동",
+        "dong_code": "1107064",
+        "dong_code_8": "11260620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08418,
+          37.61241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 106,
+        "dong_name": "서울특별시 중랑구 묵2동",
+        "dong_code": "1107065",
+        "dong_code_8": "11260630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07471,
+          37.61162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 107,
+        "dong_name": "서울특별시 중랑구 망우본동",
+        "dong_code": "1107073",
+        "dong_code_8": "11260655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10833,
+          37.60388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "dong_name": "서울특별시 중랑구 망우3동",
+        "dong_code": "1107068",
+        "dong_code_8": "11260660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10421,
+          37.59114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 109,
+        "dong_name": "서울특별시 중랑구 신내1동",
+        "dong_code": "1107069",
+        "dong_code_8": "11260680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10288,
+          37.61252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "dong_name": "서울특별시 중랑구 신내2동",
+        "dong_code": "1107070",
+        "dong_code_8": "11260690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09305,
+          37.60845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 111,
+        "dong_name": "서울특별시 성북구 성북동",
+        "dong_code": "1108081",
+        "dong_code_8": "11290525"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99661,
+          37.59508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 112,
+        "dong_name": "서울특별시 성북구 삼선동",
+        "dong_code": "1108082",
+        "dong_code_8": "11290555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01201,
+          37.58778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 113,
+        "dong_name": "서울특별시 성북구 동선동",
+        "dong_code": "1108083",
+        "dong_code_8": "11290575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0183,
+          37.59289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 114,
+        "dong_name": "서울특별시 성북구 돈암1동",
+        "dong_code": "1108058",
+        "dong_code_8": "11290580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02453,
+          37.59783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 115,
+        "dong_name": "서울특별시 성북구 돈암2동",
+        "dong_code": "1108059",
+        "dong_code_8": "11290590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01078,
+          37.59721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 116,
+        "dong_name": "서울특별시 성북구 안암동",
+        "dong_code": "1108060",
+        "dong_code_8": "11290600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02621,
+          37.58901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 117,
+        "dong_name": "서울특별시 성북구 보문동",
+        "dong_code": "1108061",
+        "dong_code_8": "11290610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01929,
+          37.58403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 118,
+        "dong_name": "서울특별시 성북구 정릉1동",
+        "dong_code": "1108062",
+        "dong_code_8": "11290620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01536,
+          37.60651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 119,
+        "dong_name": "서울특별시 성북구 정릉2동",
+        "dong_code": "1108063",
+        "dong_code_8": "11290630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00813,
+          37.60421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 120,
+        "dong_name": "서울특별시 성북구 정릉3동",
+        "dong_code": "1108064",
+        "dong_code_8": "11290640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99486,
+          37.61173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 121,
+        "dong_name": "서울특별시 성북구 정릉4동",
+        "dong_code": "1108065",
+        "dong_code_8": "11290650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99693,
+          37.62238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 122,
+        "dong_name": "서울특별시 성북구 길음1동",
+        "dong_code": "1108066",
+        "dong_code_8": "11290660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02113,
+          37.60857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 123,
+        "dong_name": "서울특별시 성북구 길음2동",
+        "dong_code": "1108068",
+        "dong_code_8": "11290685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02593,
+          37.60644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 124,
+        "dong_name": "서울특별시 성북구 종암동",
+        "dong_code": "1108084",
+        "dong_code_8": "11290705"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03467,
+          37.59644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 125,
+        "dong_name": "서울특별시 성북구 월곡1동",
+        "dong_code": "1108071",
+        "dong_code_8": "11290715"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03915,
+          37.60832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 126,
+        "dong_name": "서울특별시 성북구 월곡2동",
+        "dong_code": "1108072",
+        "dong_code_8": "11290725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04593,
+          37.60518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 127,
+        "dong_name": "서울특별시 성북구 장위1동",
+        "dong_code": "1108076",
+        "dong_code_8": "11290760"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04635,
+          37.61558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 128,
+        "dong_name": "서울특별시 성북구 장위2동",
+        "dong_code": "1108077",
+        "dong_code_8": "11290770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04995,
+          37.61258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 129,
+        "dong_name": "서울특별시 성북구 장위3동",
+        "dong_code": "1108078",
+        "dong_code_8": "11290780"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05392,
+          37.61761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 130,
+        "dong_name": "서울특별시 성북구 석관동",
+        "dong_code": "1108085",
+        "dong_code_8": "11290810"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06006,
+          37.60798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 131,
+        "dong_name": "서울특별시 강북구 삼양동",
+        "dong_code": "1109069",
+        "dong_code_8": "11305534"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01348,
+          37.62304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 132,
+        "dong_name": "서울특별시 강북구 미아동",
+        "dong_code": "1109070",
+        "dong_code_8": "11305535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02809,
+          37.62812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 133,
+        "dong_name": "서울특별시 강북구 송중동",
+        "dong_code": "1109071",
+        "dong_code_8": "11305545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03553,
+          37.61828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 134,
+        "dong_name": "서울특별시 강북구 송천동",
+        "dong_code": "1109072",
+        "dong_code_8": "11305555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02318,
+          37.61957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 135,
+        "dong_name": "서울특별시 강북구 삼각산동",
+        "dong_code": "1109073",
+        "dong_code_8": "11305575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01791,
+          37.61694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 136,
+        "dong_name": "서울특별시 강북구 번1동",
+        "dong_code": "1109060",
+        "dong_code_8": "11305590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03366,
+          37.63744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 137,
+        "dong_name": "서울특별시 강북구 번2동",
+        "dong_code": "1109061",
+        "dong_code_8": "11305600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03512,
+          37.62931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 138,
+        "dong_name": "서울특별시 강북구 번3동",
+        "dong_code": "1109062",
+        "dong_code_8": "11305606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03988,
+          37.6223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 139,
+        "dong_name": "서울특별시 강북구 수유1동",
+        "dong_code": "1109063",
+        "dong_code_8": "11305610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00804,
+          37.63026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 140,
+        "dong_name": "서울특별시 강북구 수유2동",
+        "dong_code": "1109064",
+        "dong_code_8": "11305620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01962,
+          37.64669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 141,
+        "dong_name": "서울특별시 강북구 수유3동",
+        "dong_code": "1109065",
+        "dong_code_8": "11305630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02358,
+          37.64087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 142,
+        "dong_name": "서울특별시 강북구 우이동",
+        "dong_code": "1109074",
+        "dong_code_8": "11305645"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99971,
+          37.66098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 143,
+        "dong_name": "서울특별시 강북구 인수동",
+        "dong_code": "1109075",
+        "dong_code_8": "11305660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00813,
+          37.63715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 144,
+        "dong_name": "서울특별시 도봉구 창1동",
+        "dong_code": "1110059",
+        "dong_code_8": "11320511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04481,
+          37.64685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 145,
+        "dong_name": "서울특별시 도봉구 창2동",
+        "dong_code": "1110060",
+        "dong_code_8": "11320512"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03495,
+          37.64027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 146,
+        "dong_name": "서울특별시 도봉구 창3동",
+        "dong_code": "1110061",
+        "dong_code_8": "11320513"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04338,
+          37.63793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 147,
+        "dong_name": "서울특별시 도봉구 창4동",
+        "dong_code": "1110062",
+        "dong_code_8": "11320514"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.052,
+          37.64938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 148,
+        "dong_name": "서울특별시 도봉구 창5동",
+        "dong_code": "1110063",
+        "dong_code_8": "11320515"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04459,
+          37.65536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 149,
+        "dong_name": "서울특별시 도봉구 도봉1동",
+        "dong_code": "1110064",
+        "dong_code_8": "11320521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02571,
+          37.68893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 150,
+        "dong_name": "서울특별시 도봉구 도봉2동",
+        "dong_code": "1110065",
+        "dong_code_8": "11320522"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0489,
+          37.68402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 151,
+        "dong_name": "서울특별시 도봉구 쌍문1동",
+        "dong_code": "1110051",
+        "dong_code_8": "11320660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01928,
+          37.65229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 152,
+        "dong_name": "서울특별시 도봉구 쌍문2동",
+        "dong_code": "1110052",
+        "dong_code_8": "11320670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03667,
+          37.65695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 153,
+        "dong_name": "서울특별시 도봉구 쌍문3동",
+        "dong_code": "1110053",
+        "dong_code_8": "11320680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02867,
+          37.64565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 154,
+        "dong_name": "서울특별시 도봉구 쌍문4동",
+        "dong_code": "1110054",
+        "dong_code_8": "11320681"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03054,
+          37.65628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 155,
+        "dong_name": "서울특별시 도봉구 방학1동",
+        "dong_code": "1110055",
+        "dong_code_8": "11320690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04213,
+          37.66509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 156,
+        "dong_name": "서울특별시 도봉구 방학2동",
+        "dong_code": "1110056",
+        "dong_code_8": "11320700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03424,
+          37.66733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 157,
+        "dong_name": "서울특별시 도봉구 방학3동",
+        "dong_code": "1110057",
+        "dong_code_8": "11320710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02427,
+          37.66238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 158,
+        "dong_name": "서울특별시 노원구 월계1동",
+        "dong_code": "1111051",
+        "dong_code_8": "11350560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06095,
+          37.62005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 159,
+        "dong_name": "서울특별시 노원구 월계2동",
+        "dong_code": "1111052",
+        "dong_code_8": "11350570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05047,
+          37.63675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 160,
+        "dong_name": "서울특별시 노원구 월계3동",
+        "dong_code": "1111053",
+        "dong_code_8": "11350580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06338,
+          37.62673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 161,
+        "dong_name": "서울특별시 노원구 공릉1동",
+        "dong_code": "1111079",
+        "dong_code_8": "11350595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07545,
+          37.62423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 162,
+        "dong_name": "서울특별시 노원구 공릉2동",
+        "dong_code": "1111056",
+        "dong_code_8": "11350600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09098,
+          37.62895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 163,
+        "dong_name": "서울특별시 노원구 하계1동",
+        "dong_code": "1111058",
+        "dong_code_8": "11350611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07633,
+          37.64013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 164,
+        "dong_name": "서울특별시 노원구 하계2동",
+        "dong_code": "1111059",
+        "dong_code_8": "11350612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06325,
+          37.63413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 165,
+        "dong_name": "서울특별시 노원구 중계본동",
+        "dong_code": "1111060",
+        "dong_code_8": "11350619"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08599,
+          37.6469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 166,
+        "dong_name": "서울특별시 노원구 중계1동",
+        "dong_code": "1111061",
+        "dong_code_8": "11350621"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07367,
+          37.65146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 167,
+        "dong_name": "서울특별시 노원구 중계4동",
+        "dong_code": "1111064",
+        "dong_code_8": "11350624"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08118,
+          37.66047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 168,
+        "dong_name": "서울특별시 노원구 중계2·3동",
+        "dong_code": "1111078",
+        "dong_code_8": "11350625"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06376,
+          37.64448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 169,
+        "dong_name": "서울특별시 노원구 상계1동",
+        "dong_code": "1111065",
+        "dong_code_8": "11350630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06579,
+          37.68464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 170,
+        "dong_name": "서울특별시 노원구 상계2동",
+        "dong_code": "1111066",
+        "dong_code_8": "11350640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06708,
+          37.65544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 171,
+        "dong_name": "서울특별시 노원구 상계3·4동",
+        "dong_code": "1111076",
+        "dong_code_8": "11350665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08271,
+          37.67522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 172,
+        "dong_name": "서울특별시 노원구 상계5동",
+        "dong_code": "1111069",
+        "dong_code_8": "11350670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07051,
+          37.66513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 173,
+        "dong_name": "서울특별시 노원구 상계6·7동",
+        "dong_code": "1111077",
+        "dong_code_8": "11350695"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05982,
+          37.6484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 174,
+        "dong_name": "서울특별시 노원구 상계8동",
+        "dong_code": "1111072",
+        "dong_code_8": "11350700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05179,
+          37.66564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 175,
+        "dong_name": "서울특별시 노원구 상계9동",
+        "dong_code": "1111073",
+        "dong_code_8": "11350710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06337,
+          37.66608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 176,
+        "dong_name": "서울특별시 노원구 상계10동",
+        "dong_code": "1111074",
+        "dong_code_8": "11350720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06123,
+          37.66115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 177,
+        "dong_name": "서울특별시 은평구 녹번동",
+        "dong_code": "1112051",
+        "dong_code_8": "11380510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93933,
+          37.60578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 178,
+        "dong_name": "서울특별시 은평구 불광1동",
+        "dong_code": "1112052",
+        "dong_code_8": "11380520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93637,
+          37.61792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 179,
+        "dong_name": "서울특별시 은평구 불광2동",
+        "dong_code": "1112072",
+        "dong_code_8": "11380530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92864,
+          37.62338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 180,
+        "dong_name": "서울특별시 은평구 갈현1동",
+        "dong_code": "1112055",
+        "dong_code_8": "11380551"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91717,
+          37.62474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 181,
+        "dong_name": "서울특별시 은평구 갈현2동",
+        "dong_code": "1112056",
+        "dong_code_8": "11380552"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91073,
+          37.61682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 182,
+        "dong_name": "서울특별시 은평구 구산동",
+        "dong_code": "1112057",
+        "dong_code_8": "11380560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90826,
+          37.6118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 183,
+        "dong_name": "서울특별시 은평구 대조동",
+        "dong_code": "1112058",
+        "dong_code_8": "11380570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92439,
+          37.6127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 184,
+        "dong_name": "서울특별시 은평구 응암1동",
+        "dong_code": "1112059",
+        "dong_code_8": "11380580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92732,
+          37.59804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 185,
+        "dong_name": "서울특별시 은평구 응암2동",
+        "dong_code": "1112060",
+        "dong_code_8": "11380590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92377,
+          37.59129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 186,
+        "dong_name": "서울특별시 은평구 응암3동",
+        "dong_code": "1112073",
+        "dong_code_8": "11380600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91799,
+          37.5884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 187,
+        "dong_name": "서울특별시 은평구 역촌동",
+        "dong_code": "1112074",
+        "dong_code_8": "11380625"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91113,
+          37.60466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 188,
+        "dong_name": "서울특별시 은평구 신사1동",
+        "dong_code": "1112065",
+        "dong_code_8": "11380631"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9075,
+          37.6001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 189,
+        "dong_name": "서울특별시 은평구 신사2동",
+        "dong_code": "1112066",
+        "dong_code_8": "11380632"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90491,
+          37.59228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 190,
+        "dong_name": "서울특별시 은평구 증산동",
+        "dong_code": "1112067",
+        "dong_code_8": "11380640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90521,
+          37.58404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 191,
+        "dong_name": "서울특별시 은평구 수색동",
+        "dong_code": "1112068",
+        "dong_code_8": "11380650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89424,
+          37.58597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 192,
+        "dong_name": "서울특별시 은평구 진관동",
+        "dong_code": "1112071",
+        "dong_code_8": "11380690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93428,
+          37.64153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 193,
+        "dong_name": "서울특별시 서대문구 천연동",
+        "dong_code": "1113052",
+        "dong_code_8": "11410520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95698,
+          37.5719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 194,
+        "dong_name": "서울특별시 서대문구 북아현동",
+        "dong_code": "1113074",
+        "dong_code_8": "11410555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9557,
+          37.55888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 195,
+        "dong_name": "서울특별시 서대문구 충현동",
+        "dong_code": "1113073",
+        "dong_code_8": "11410565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96053,
+          37.56263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 196,
+        "dong_name": "서울특별시 서대문구 신촌동",
+        "dong_code": "1113075",
+        "dong_code_8": "11410585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94117,
+          37.56712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 197,
+        "dong_name": "서울특별시 서대문구 연희동",
+        "dong_code": "1113076",
+        "dong_code_8": "11410615"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9355,
+          37.57223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 198,
+        "dong_name": "서울특별시 서대문구 홍제1동",
+        "dong_code": "1113062",
+        "dong_code_8": "11410620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94161,
+          37.58352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 199,
+        "dong_name": "서울특별시 서대문구 홍제3동",
+        "dong_code": "1113064",
+        "dong_code_8": "11410640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94887,
+          37.59445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 200,
+        "dong_name": "서울특별시 서대문구 홍제2동",
+        "dong_code": "1113065",
+        "dong_code_8": "11410655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95218,
+          37.58376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 201,
+        "dong_name": "서울특별시 서대문구 홍은1동",
+        "dong_code": "1113066",
+        "dong_code_8": "11410660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94827,
+          37.60091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 202,
+        "dong_name": "서울특별시 서대문구 홍은2동",
+        "dong_code": "1113068",
+        "dong_code_8": "11410685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93397,
+          37.58663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 203,
+        "dong_name": "서울특별시 서대문구 남가좌1동",
+        "dong_code": "1113069",
+        "dong_code_8": "11410690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91448,
+          37.57214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 204,
+        "dong_name": "서울특별시 서대문구 남가좌2동",
+        "dong_code": "1113070",
+        "dong_code_8": "11410700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92209,
+          37.58013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 205,
+        "dong_name": "서울특별시 서대문구 북가좌1동",
+        "dong_code": "1113071",
+        "dong_code_8": "11410710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91015,
+          37.5753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 206,
+        "dong_name": "서울특별시 서대문구 북가좌2동",
+        "dong_code": "1113072",
+        "dong_code_8": "11410720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91499,
+          37.58175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 207,
+        "dong_name": "서울특별시 마포구 아현동",
+        "dong_code": "1114078",
+        "dong_code_8": "11440555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95241,
+          37.55193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 208,
+        "dong_name": "서울특별시 마포구 공덕동",
+        "dong_code": "1114077",
+        "dong_code_8": "11440565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95879,
+          37.5502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 209,
+        "dong_name": "서울특별시 마포구 도화동",
+        "dong_code": "1114075",
+        "dong_code_8": "11440585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94857,
+          37.53701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 210,
+        "dong_name": "서울특별시 마포구 용강동",
+        "dong_code": "1114059",
+        "dong_code_8": "11440590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94353,
+          37.54174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 211,
+        "dong_name": "서울특별시 마포구 대흥동",
+        "dong_code": "1114060",
+        "dong_code_8": "11440600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94138,
+          37.55125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 212,
+        "dong_name": "서울특별시 마포구 염리동",
+        "dong_code": "1114061",
+        "dong_code_8": "11440610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94676,
+          37.54902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 213,
+        "dong_name": "서울특별시 마포구 신수동",
+        "dong_code": "1114063",
+        "dong_code_8": "11440630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9335,
+          37.54548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 214,
+        "dong_name": "서울특별시 마포구 서강동",
+        "dong_code": "1114076",
+        "dong_code_8": "11440655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92619,
+          37.54895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 215,
+        "dong_name": "서울특별시 마포구 서교동",
+        "dong_code": "1114066",
+        "dong_code_8": "11440660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92028,
+          37.55403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 216,
+        "dong_name": "서울특별시 마포구 합정동",
+        "dong_code": "1114068",
+        "dong_code_8": "11440680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91188,
+          37.54791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 217,
+        "dong_name": "서울특별시 마포구 망원1동",
+        "dong_code": "1114069",
+        "dong_code_8": "11440690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90116,
+          37.5534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 218,
+        "dong_name": "서울특별시 마포구 망원2동",
+        "dong_code": "1114070",
+        "dong_code_8": "11440700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8983,
+          37.5585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 219,
+        "dong_name": "서울특별시 마포구 연남동",
+        "dong_code": "1114071",
+        "dong_code_8": "11440710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92197,
+          37.56288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 220,
+        "dong_name": "서울특별시 마포구 성산1동",
+        "dong_code": "1114072",
+        "dong_code_8": "11440720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91472,
+          37.56041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 221,
+        "dong_name": "서울특별시 마포구 성산2동",
+        "dong_code": "1114073",
+        "dong_code_8": "11440730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89863,
+          37.56846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 222,
+        "dong_name": "서울특별시 마포구 상암동",
+        "dong_code": "1114074",
+        "dong_code_8": "11440740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88544,
+          37.57515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 223,
+        "dong_name": "서울특별시 양천구 목1동",
+        "dong_code": "1115051",
+        "dong_code_8": "11470510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87817,
+          37.52841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 224,
+        "dong_name": "서울특별시 양천구 목2동",
+        "dong_code": "1115052",
+        "dong_code_8": "11470520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87449,
+          37.54543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 225,
+        "dong_name": "서울특별시 양천구 목3동",
+        "dong_code": "1115053",
+        "dong_code_8": "11470530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.86493,
+          37.54488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 226,
+        "dong_name": "서울특별시 양천구 목4동",
+        "dong_code": "1115054",
+        "dong_code_8": "11470540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.86918,
+          37.53566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 227,
+        "dong_name": "서울특별시 양천구 목5동",
+        "dong_code": "1115071",
+        "dong_code_8": "11470550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87958,
+          37.53538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 228,
+        "dong_name": "서울특별시 양천구 신월1동",
+        "dong_code": "1115057",
+        "dong_code_8": "11470560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.83325,
+          37.53121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 229,
+        "dong_name": "서울특별시 양천구 신월2동",
+        "dong_code": "1115058",
+        "dong_code_8": "11470570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.84759,
+          37.52066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 230,
+        "dong_name": "서울특별시 양천구 신월3동",
+        "dong_code": "1115059",
+        "dong_code_8": "11470580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.82598,
+          37.53407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 231,
+        "dong_name": "서울특별시 양천구 신월4동",
+        "dong_code": "1115060",
+        "dong_code_8": "11470590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.83858,
+          37.52102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 232,
+        "dong_name": "서울특별시 양천구 신월5동",
+        "dong_code": "1115061",
+        "dong_code_8": "11470600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.82792,
+          37.54147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 233,
+        "dong_name": "서울특별시 양천구 신월6동",
+        "dong_code": "1115062",
+        "dong_code_8": "11470610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.84185,
+          37.51577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 234,
+        "dong_name": "서울특별시 양천구 신월7동",
+        "dong_code": "1115063",
+        "dong_code_8": "11470611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.83184,
+          37.51966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 235,
+        "dong_name": "서울특별시 양천구 신정1동",
+        "dong_code": "1115064",
+        "dong_code_8": "11470620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85899,
+          37.5186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 236,
+        "dong_name": "서울특별시 양천구 신정2동",
+        "dong_code": "1115065",
+        "dong_code_8": "11470630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87445,
+          37.51894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 237,
+        "dong_name": "서울특별시 양천구 신정3동",
+        "dong_code": "1115066",
+        "dong_code_8": "11470640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.83929,
+          37.51277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 238,
+        "dong_name": "서울특별시 양천구 신정4동",
+        "dong_code": "1115072",
+        "dong_code_8": "11470650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85806,
+          37.52394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 239,
+        "dong_name": "서울특별시 양천구 신정6동",
+        "dong_code": "1115069",
+        "dong_code_8": "11470670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.86932,
+          37.51575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 240,
+        "dong_name": "서울특별시 양천구 신정7동",
+        "dong_code": "1115070",
+        "dong_code_8": "11470680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.86393,
+          37.51134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 241,
+        "dong_name": "서울특별시 강서구 염창동",
+        "dong_code": "1116051",
+        "dong_code_8": "11500510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87415,
+          37.55061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 242,
+        "dong_name": "서울특별시 강서구 등촌1동",
+        "dong_code": "1116052",
+        "dong_code_8": "11500520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.86297,
+          37.55444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 243,
+        "dong_name": "서울특별시 강서구 등촌2동",
+        "dong_code": "1116053",
+        "dong_code_8": "11500530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85899,
+          37.54402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 244,
+        "dong_name": "서울특별시 강서구 등촌3동",
+        "dong_code": "1116054",
+        "dong_code_8": "11500535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.84289,
+          37.562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 245,
+        "dong_name": "서울특별시 강서구 화곡1동",
+        "dong_code": "1116073",
+        "dong_code_8": "11500540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.84353,
+          37.53358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 246,
+        "dong_name": "서울특별시 강서구 화곡2동",
+        "dong_code": "1116057",
+        "dong_code_8": "11500550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85283,
+          37.53254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 247,
+        "dong_name": "서울특별시 강서구 화곡3동",
+        "dong_code": "1116058",
+        "dong_code_8": "11500560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.83397,
+          37.54457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 248,
+        "dong_name": "서울특별시 강서구 화곡4동",
+        "dong_code": "1116059",
+        "dong_code_8": "11500570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85738,
+          37.5389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 249,
+        "dong_name": "서울특별시 강서구 화곡본동",
+        "dong_code": "1116055",
+        "dong_code_8": "11500590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.84948,
+          37.54252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 250,
+        "dong_name": "서울특별시 강서구 화곡6동",
+        "dong_code": "1116061",
+        "dong_code_8": "11500591"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85159,
+          37.5497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 251,
+        "dong_name": "서울특별시 강서구 화곡8동",
+        "dong_code": "1116063",
+        "dong_code_8": "11500593"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.849,
+          37.5335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 252,
+        "dong_name": "서울특별시 강서구 가양1동",
+        "dong_code": "1116064",
+        "dong_code_8": "11500603"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.83179,
+          37.56947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 253,
+        "dong_name": "서울특별시 강서구 가양2동",
+        "dong_code": "1116065",
+        "dong_code_8": "11500604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85356,
+          37.56815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 254,
+        "dong_name": "서울특별시 강서구 가양3동",
+        "dong_code": "1116066",
+        "dong_code_8": "11500605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8625,
+          37.56267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 255,
+        "dong_name": "서울특별시 강서구 발산1동",
+        "dong_code": "1116067",
+        "dong_code_8": "11500611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.82406,
+          37.54748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 256,
+        "dong_name": "서울특별시 강서구 우장산동",
+        "dong_code": "1116074",
+        "dong_code_8": "11500615"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.84114,
+          37.54671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 257,
+        "dong_name": "서울특별시 강서구 공항동",
+        "dong_code": "1116069",
+        "dong_code_8": "11500620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.79536,
+          37.55521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 258,
+        "dong_name": "서울특별시 강서구 방화1동",
+        "dong_code": "1116070",
+        "dong_code_8": "11500630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.81381,
+          37.57102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 259,
+        "dong_name": "서울특별시 강서구 방화2동",
+        "dong_code": "1116071",
+        "dong_code_8": "11500640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.80464,
+          37.58315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 260,
+        "dong_name": "서울특별시 강서구 방화3동",
+        "dong_code": "1116072",
+        "dong_code_8": "11500641"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.81371,
+          37.57907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 261,
+        "dong_name": "서울특별시 구로구 신도림동",
+        "dong_code": "1117051",
+        "dong_code_8": "11530510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88519,
+          37.50826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 262,
+        "dong_name": "서울특별시 구로구 구로1동",
+        "dong_code": "1117052",
+        "dong_code_8": "11530520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87672,
+          37.49395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 263,
+        "dong_name": "서울특별시 구로구 구로2동",
+        "dong_code": "1117071",
+        "dong_code_8": "11530530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88093,
+          37.49658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 264,
+        "dong_name": "서울특별시 구로구 구로3동",
+        "dong_code": "1117054",
+        "dong_code_8": "11530540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89382,
+          37.48469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 265,
+        "dong_name": "서울특별시 구로구 구로4동",
+        "dong_code": "1117055",
+        "dong_code_8": "11530550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88798,
+          37.48979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 266,
+        "dong_name": "서울특별시 구로구 구로5동",
+        "dong_code": "1117056",
+        "dong_code_8": "11530560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88719,
+          37.50156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 267,
+        "dong_name": "서울특별시 구로구 가리봉동",
+        "dong_code": "1117070",
+        "dong_code_8": "11530595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88954,
+          37.4815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 268,
+        "dong_name": "서울특별시 구로구 고척1동",
+        "dong_code": "1117061",
+        "dong_code_8": "11530720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.86105,
+          37.50109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 269,
+        "dong_name": "서울특별시 구로구 고척2동",
+        "dong_code": "1117062",
+        "dong_code_8": "11530730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8544,
+          37.50457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 270,
+        "dong_name": "서울특별시 구로구 개봉1동",
+        "dong_code": "1117072",
+        "dong_code_8": "11530740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85149,
+          37.49933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 271,
+        "dong_name": "서울특별시 구로구 개봉2동",
+        "dong_code": "1117064",
+        "dong_code_8": "11530750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85727,
+          37.49316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 272,
+        "dong_name": "서울특별시 구로구 개봉3동",
+        "dong_code": "1117065",
+        "dong_code_8": "11530760"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85281,
+          37.48619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 273,
+        "dong_name": "서울특별시 구로구 오류1동",
+        "dong_code": "1117067",
+        "dong_code_8": "11530770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.84084,
+          37.49777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 274,
+        "dong_name": "서울특별시 구로구 오류2동",
+        "dong_code": "1117068",
+        "dong_code_8": "11530780"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.83727,
+          37.48267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 275,
+        "dong_name": "서울특별시 구로구 수궁동",
+        "dong_code": "1117069",
+        "dong_code_8": "11530790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.82809,
+          37.49739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 276,
+        "dong_name": "서울특별시 금천구 가산동",
+        "dong_code": "1118051",
+        "dong_code_8": "11545510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88552,
+          37.47762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 277,
+        "dong_name": "서울특별시 금천구 독산1동",
+        "dong_code": "1118052",
+        "dong_code_8": "11545610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89236,
+          37.46298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 278,
+        "dong_name": "서울특별시 금천구 독산2동",
+        "dong_code": "1118053",
+        "dong_code_8": "11545620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90373,
+          37.46425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 279,
+        "dong_name": "서울특별시 금천구 독산3동",
+        "dong_code": "1118054",
+        "dong_code_8": "11545630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90743,
+          37.47609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 280,
+        "dong_name": "서울특별시 금천구 독산4동",
+        "dong_code": "1118055",
+        "dong_code_8": "11545640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90554,
+          37.46861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 281,
+        "dong_name": "서울특별시 금천구 시흥1동",
+        "dong_code": "1118057",
+        "dong_code_8": "11545670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90037,
+          37.45284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 282,
+        "dong_name": "서울특별시 금천구 시흥2동",
+        "dong_code": "1118058",
+        "dong_code_8": "11545680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91791,
+          37.4521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 283,
+        "dong_name": "서울특별시 금천구 시흥3동",
+        "dong_code": "1118059",
+        "dong_code_8": "11545690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90509,
+          37.43966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 284,
+        "dong_name": "서울특별시 금천구 시흥4동",
+        "dong_code": "1118060",
+        "dong_code_8": "11545700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90996,
+          37.46049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 285,
+        "dong_name": "서울특별시 금천구 시흥5동",
+        "dong_code": "1118061",
+        "dong_code_8": "11545710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91259,
+          37.45023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 286,
+        "dong_name": "서울특별시 영등포구 영등포본동",
+        "dong_code": "1119073",
+        "dong_code_8": "11560515"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90959,
+          37.51333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 287,
+        "dong_name": "서울특별시 영등포구 영등포동",
+        "dong_code": "1119074",
+        "dong_code_8": "11560535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90641,
+          37.52265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 288,
+        "dong_name": "서울특별시 영등포구 여의동",
+        "dong_code": "1119054",
+        "dong_code_8": "11560540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92532,
+          37.52645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 289,
+        "dong_name": "서울특별시 영등포구 당산1동",
+        "dong_code": "1119055",
+        "dong_code_8": "11560550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8981,
+          37.52258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 290,
+        "dong_name": "서울특별시 영등포구 당산2동",
+        "dong_code": "1119056",
+        "dong_code_8": "11560560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90617,
+          37.53003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 291,
+        "dong_name": "서울특별시 영등포구 도림동",
+        "dong_code": "1119075",
+        "dong_code_8": "11560585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90326,
+          37.50994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 292,
+        "dong_name": "서울특별시 영등포구 문래동",
+        "dong_code": "1119076",
+        "dong_code_8": "11560605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89556,
+          37.51588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 293,
+        "dong_name": "서울특별시 영등포구 양평1동",
+        "dong_code": "1119061",
+        "dong_code_8": "11560610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88667,
+          37.52485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 294,
+        "dong_name": "서울특별시 영등포구 양평2동",
+        "dong_code": "1119062",
+        "dong_code_8": "11560620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89345,
+          37.54045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 295,
+        "dong_name": "서울특별시 영등포구 신길1동",
+        "dong_code": "1119063",
+        "dong_code_8": "11560630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91933,
+          37.51393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 296,
+        "dong_name": "서울특별시 영등포구 신길3동",
+        "dong_code": "1119065",
+        "dong_code_8": "11560650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90786,
+          37.50629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 297,
+        "dong_name": "서울특별시 영등포구 신길4동",
+        "dong_code": "1119066",
+        "dong_code_8": "11560660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91141,
+          37.50534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 298,
+        "dong_name": "서울특별시 영등포구 신길5동",
+        "dong_code": "1119067",
+        "dong_code_8": "11560670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90472,
+          37.5007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 299,
+        "dong_name": "서울특별시 영등포구 신길6동",
+        "dong_code": "1119068",
+        "dong_code_8": "11560680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91315,
+          37.50041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 300,
+        "dong_name": "서울특별시 영등포구 신길7동",
+        "dong_code": "1119069",
+        "dong_code_8": "11560690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91946,
+          37.50575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 301,
+        "dong_name": "서울특별시 영등포구 대림1동",
+        "dong_code": "1119070",
+        "dong_code_8": "11560700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90526,
+          37.49438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 302,
+        "dong_name": "서울특별시 영등포구 대림2동",
+        "dong_code": "1119071",
+        "dong_code_8": "11560710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90011,
+          37.48799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 303,
+        "dong_name": "서울특별시 영등포구 대림3동",
+        "dong_code": "1119072",
+        "dong_code_8": "11560720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89906,
+          37.50034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 304,
+        "dong_name": "서울특별시 동작구 노량진1동",
+        "dong_code": "1120072",
+        "dong_code_8": "11590510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94692,
+          37.51084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 305,
+        "dong_name": "서울특별시 동작구 노량진2동",
+        "dong_code": "1120052",
+        "dong_code_8": "11590520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9385,
+          37.50902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 306,
+        "dong_name": "서울특별시 동작구 상도1동",
+        "dong_code": "1120053",
+        "dong_code_8": "11590530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95337,
+          37.49774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 307,
+        "dong_name": "서울특별시 동작구 상도2동",
+        "dong_code": "1120054",
+        "dong_code_8": "11590540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93891,
+          37.50512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 308,
+        "dong_name": "서울특별시 동작구 상도3동",
+        "dong_code": "1120055",
+        "dong_code_8": "11590550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93117,
+          37.49914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 309,
+        "dong_name": "서울특별시 동작구 상도4동",
+        "dong_code": "1120056",
+        "dong_code_8": "11590560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94283,
+          37.49695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 310,
+        "dong_name": "서울특별시 동작구 흑석동",
+        "dong_code": "1120071",
+        "dong_code_8": "11590605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96455,
+          37.50478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 311,
+        "dong_name": "서울특별시 동작구 사당1동",
+        "dong_code": "1120063",
+        "dong_code_8": "11590620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97566,
+          37.4784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 312,
+        "dong_name": "서울특별시 동작구 사당2동",
+        "dong_code": "1120073",
+        "dong_code_8": "11590630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97611,
+          37.4973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 313,
+        "dong_name": "서울특별시 동작구 사당3동",
+        "dong_code": "1120065",
+        "dong_code_8": "11590640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97056,
+          37.48926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 314,
+        "dong_name": "서울특별시 동작구 사당4동",
+        "dong_code": "1120066",
+        "dong_code_8": "11590650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96998,
+          37.48023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 315,
+        "dong_name": "서울특별시 동작구 사당5동",
+        "dong_code": "1120067",
+        "dong_code_8": "11590651"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9654,
+          37.48523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 316,
+        "dong_name": "서울특별시 동작구 대방동",
+        "dong_code": "1120068",
+        "dong_code_8": "11590660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92881,
+          37.50456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 317,
+        "dong_name": "서울특별시 동작구 신대방1동",
+        "dong_code": "1120069",
+        "dong_code_8": "11590670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91039,
+          37.48966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 318,
+        "dong_name": "서울특별시 동작구 신대방2동",
+        "dong_code": "1120070",
+        "dong_code_8": "11590680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92442,
+          37.49649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 319,
+        "dong_name": "서울특별시 관악구 보라매동",
+        "dong_code": "1121052",
+        "dong_code_8": "11620525"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93247,
+          37.49156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 320,
+        "dong_name": "서울특별시 관악구 청림동",
+        "dong_code": "1121054",
+        "dong_code_8": "11620545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95898,
+          37.49003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 321,
+        "dong_name": "서울특별시 관악구 성현동",
+        "dong_code": "1121079",
+        "dong_code_8": "11620565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95195,
+          37.48959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 322,
+        "dong_name": "서울특별시 관악구 행운동",
+        "dong_code": "1121057",
+        "dong_code_8": "11620575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96572,
+          37.47807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 323,
+        "dong_name": "서울특별시 관악구 낙성대동",
+        "dong_code": "1121058",
+        "dong_code_8": "11620585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96193,
+          37.46766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 324,
+        "dong_name": "서울특별시 관악구 청룡동",
+        "dong_code": "1121080",
+        "dong_code_8": "11620595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94478,
+          37.47637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 325,
+        "dong_name": "서울특별시 관악구 은천동",
+        "dong_code": "1121078",
+        "dong_code_8": "11620605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94179,
+          37.48827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 326,
+        "dong_name": "서울특별시 관악구 중앙동",
+        "dong_code": "1121061",
+        "dong_code_8": "11620615"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.95123,
+          37.4831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 327,
+        "dong_name": "서울특별시 관악구 인헌동",
+        "dong_code": "1121062",
+        "dong_code_8": "11620625"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96539,
+          37.47168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 328,
+        "dong_name": "서울특별시 관악구 남현동",
+        "dong_code": "1121063",
+        "dong_code_8": "11620630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97551,
+          37.4645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 329,
+        "dong_name": "서울특별시 관악구 서원동",
+        "dong_code": "1121064",
+        "dong_code_8": "11620645"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93584,
+          37.48055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 330,
+        "dong_name": "서울특별시 관악구 신원동",
+        "dong_code": "1121065",
+        "dong_code_8": "11620655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92663,
+          37.47893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 331,
+        "dong_name": "서울특별시 관악구 서림동",
+        "dong_code": "1121066",
+        "dong_code_8": "11620665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94028,
+          37.47352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 332,
+        "dong_name": "서울특별시 관악구 신사동",
+        "dong_code": "1121068",
+        "dong_code_8": "11620685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9205,
+          37.48696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 333,
+        "dong_name": "서울특별시 관악구 신림동",
+        "dong_code": "1121069",
+        "dong_code_8": "11620695"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92429,
+          37.4873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 334,
+        "dong_name": "서울특별시 관악구 난향동",
+        "dong_code": "1121071",
+        "dong_code_8": "11620715"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9186,
+          37.4615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 335,
+        "dong_name": "서울특별시 관악구 조원동",
+        "dong_code": "1121072",
+        "dong_code_8": "11620725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9073,
+          37.48354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 336,
+        "dong_name": "서울특별시 관악구 대학동",
+        "dong_code": "1121073",
+        "dong_code_8": "11620735"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94916,
+          37.4517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 337,
+        "dong_name": "서울특별시 관악구 삼성동",
+        "dong_code": "1121082",
+        "dong_code_8": "11620745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9285,
+          37.46237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 338,
+        "dong_name": "서울특별시 관악구 미성동",
+        "dong_code": "1121083",
+        "dong_code_8": "11620765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91324,
+          37.47422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 339,
+        "dong_name": "서울특별시 관악구 난곡동",
+        "dong_code": "1121081",
+        "dong_code_8": "11620775"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92171,
+          37.46964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 340,
+        "dong_name": "서울특별시 서초구 서초1동",
+        "dong_code": "1122051",
+        "dong_code_8": "11650510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01964,
+          37.48481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 341,
+        "dong_name": "서울특별시 서초구 서초2동",
+        "dong_code": "1122052",
+        "dong_code_8": "11650520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03011,
+          37.48489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 342,
+        "dong_name": "서울특별시 서초구 서초3동",
+        "dong_code": "1122053",
+        "dong_code_8": "11650530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00834,
+          37.48597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 343,
+        "dong_name": "서울특별시 서초구 서초4동",
+        "dong_code": "1122054",
+        "dong_code_8": "11650531"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01758,
+          37.49851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 344,
+        "dong_name": "서울특별시 서초구 잠원동",
+        "dong_code": "1122055",
+        "dong_code_8": "11650540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01201,
+          37.51649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 345,
+        "dong_name": "서울특별시 서초구 반포본동",
+        "dong_code": "1122056",
+        "dong_code_8": "11650550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98942,
+          37.50387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 346,
+        "dong_name": "서울특별시 서초구 반포1동",
+        "dong_code": "1122057",
+        "dong_code_8": "11650560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01433,
+          37.50446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 347,
+        "dong_name": "서울특별시 서초구 반포2동",
+        "dong_code": "1122058",
+        "dong_code_8": "11650570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99421,
+          37.50298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 348,
+        "dong_name": "서울특별시 서초구 반포3동",
+        "dong_code": "1122059",
+        "dong_code_8": "11650580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00615,
+          37.51294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 349,
+        "dong_name": "서울특별시 서초구 반포4동",
+        "dong_code": "1122060",
+        "dong_code_8": "11650581"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99989,
+          37.49834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 350,
+        "dong_name": "서울특별시 서초구 방배본동",
+        "dong_code": "1122061",
+        "dong_code_8": "11650590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98956,
+          37.4956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 351,
+        "dong_name": "서울특별시 서초구 방배1동",
+        "dong_code": "1122062",
+        "dong_code_8": "11650600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99823,
+          37.48467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 352,
+        "dong_name": "서울특별시 서초구 방배2동",
+        "dong_code": "1122063",
+        "dong_code_8": "11650610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98782,
+          37.47078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 353,
+        "dong_name": "서울특별시 서초구 방배3동",
+        "dong_code": "1122064",
+        "dong_code_8": "11650620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99803,
+          37.47552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 354,
+        "dong_name": "서울특별시 서초구 방배4동",
+        "dong_code": "1122065",
+        "dong_code_8": "11650621"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99063,
+          37.49034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 355,
+        "dong_name": "서울특별시 서초구 양재1동",
+        "dong_code": "1122066",
+        "dong_code_8": "11650651"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0254,
+          37.47248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 356,
+        "dong_name": "서울특별시 서초구 양재2동",
+        "dong_code": "1122067",
+        "dong_code_8": "11650652"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04443,
+          37.44762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 357,
+        "dong_name": "서울특별시 서초구 내곡동",
+        "dong_code": "1122068",
+        "dong_code_8": "11650660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06973,
+          37.45271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 358,
+        "dong_name": "서울특별시 강남구 신사동",
+        "dong_code": "1123051",
+        "dong_code_8": "11680510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02249,
+          37.52622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 359,
+        "dong_name": "서울특별시 강남구 논현1동",
+        "dong_code": "1123052",
+        "dong_code_8": "11680521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02717,
+          37.51415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 360,
+        "dong_name": "서울특별시 강남구 논현2동",
+        "dong_code": "1123053",
+        "dong_code_8": "11680531"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03449,
+          37.51689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 361,
+        "dong_name": "서울특별시 강남구 압구정동",
+        "dong_code": "1123077",
+        "dong_code_8": "11680545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0329,
+          37.52774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 362,
+        "dong_name": "서울특별시 강남구 청담동",
+        "dong_code": "1123078",
+        "dong_code_8": "11680565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05038,
+          37.52355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 363,
+        "dong_name": "서울특별시 강남구 삼성1동",
+        "dong_code": "1123058",
+        "dong_code_8": "11680580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05907,
+          37.51647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 364,
+        "dong_name": "서울특별시 강남구 삼성2동",
+        "dong_code": "1123059",
+        "dong_code_8": "11680590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0487,
+          37.51011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 365,
+        "dong_name": "서울특별시 강남구 대치1동",
+        "dong_code": "1123060",
+        "dong_code_8": "11680600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0573,
+          37.49227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 366,
+        "dong_name": "서울특별시 강남구 대치2동",
+        "dong_code": "1123079",
+        "dong_code_8": "11680610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07023,
+          37.49893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 367,
+        "dong_name": "서울특별시 강남구 대치4동",
+        "dong_code": "1123063",
+        "dong_code_8": "11680630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05401,
+          37.50138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 368,
+        "dong_name": "서울특별시 강남구 역삼1동",
+        "dong_code": "1123064",
+        "dong_code_8": "11680640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04103,
+          37.50399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 369,
+        "dong_name": "서울특별시 강남구 역삼2동",
+        "dong_code": "1123065",
+        "dong_code_8": "11680650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.045,
+          37.49948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 370,
+        "dong_name": "서울특별시 강남구 도곡1동",
+        "dong_code": "1123066",
+        "dong_code_8": "11680655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04411,
+          37.48773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 371,
+        "dong_name": "서울특별시 강남구 도곡2동",
+        "dong_code": "1123067",
+        "dong_code_8": "11680656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04867,
+          37.4871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 372,
+        "dong_name": "서울특별시 강남구 개포1동",
+        "dong_code": "1123068",
+        "dong_code_8": "11680660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06705,
+          37.48015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 373,
+        "dong_name": "서울특별시 강남구 개포2동",
+        "dong_code": "1123080",
+        "dong_code_8": "11680670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06729,
+          37.48795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 374,
+        "dong_name": "서울특별시 강남구 개포4동",
+        "dong_code": "1123071",
+        "dong_code_8": "11680690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05178,
+          37.47642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 375,
+        "dong_name": "서울특별시 강남구 세곡동",
+        "dong_code": "1123076",
+        "dong_code_8": "11680700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10571,
+          37.47016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 376,
+        "dong_name": "서울특별시 강남구 일원본동",
+        "dong_code": "1123072",
+        "dong_code_8": "11680720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08394,
+          37.47973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 377,
+        "dong_name": "서울특별시 강남구 일원1동",
+        "dong_code": "1123073",
+        "dong_code_8": "11680730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0904,
+          37.49319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 378,
+        "dong_name": "서울특별시 강남구 일원2동",
+        "dong_code": "1123074",
+        "dong_code_8": "11680740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07691,
+          37.49459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 379,
+        "dong_name": "서울특별시 강남구 수서동",
+        "dong_code": "1123075",
+        "dong_code_8": "11680750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10075,
+          37.48557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 380,
+        "dong_name": "서울특별시 송파구 풍납1동",
+        "dong_code": "1124051",
+        "dong_code_8": "11710510"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1171,
+          37.53853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 381,
+        "dong_name": "서울특별시 송파구 풍납2동",
+        "dong_code": "1124052",
+        "dong_code_8": "11710520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.11135,
+          37.53175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 382,
+        "dong_name": "서울특별시 송파구 거여1동",
+        "dong_code": "1124053",
+        "dong_code_8": "11710531"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.14058,
+          37.49255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 383,
+        "dong_name": "서울특별시 송파구 거여2동",
+        "dong_code": "1124054",
+        "dong_code_8": "11710532"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.14754,
+          37.49068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 384,
+        "dong_name": "서울특별시 송파구 마천1동",
+        "dong_code": "1124055",
+        "dong_code_8": "11710540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.15579,
+          37.49401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 385,
+        "dong_name": "서울특별시 송파구 마천2동",
+        "dong_code": "1124056",
+        "dong_code_8": "11710550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.15258,
+          37.50215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 386,
+        "dong_name": "서울특별시 송파구 방이1동",
+        "dong_code": "1124057",
+        "dong_code_8": "11710561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.12146,
+          37.50879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 387,
+        "dong_name": "서울특별시 송파구 방이2동",
+        "dong_code": "1124058",
+        "dong_code_8": "11710562"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.11453,
+          37.51324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 388,
+        "dong_name": "서울특별시 송파구 오륜동",
+        "dong_code": "1124059",
+        "dong_code_8": "11710566"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13306,
+          37.51533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 389,
+        "dong_name": "서울특별시 송파구 오금동",
+        "dong_code": "1124060",
+        "dong_code_8": "11710570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1374,
+          37.50274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 390,
+        "dong_name": "서울특별시 송파구 송파1동",
+        "dong_code": "1124061",
+        "dong_code_8": "11710580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.11159,
+          37.50555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 391,
+        "dong_name": "서울특별시 송파구 송파2동",
+        "dong_code": "1124062",
+        "dong_code_8": "11710590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.11488,
+          37.50223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 392,
+        "dong_name": "서울특별시 송파구 석촌동",
+        "dong_code": "1124063",
+        "dong_code_8": "11710600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10066,
+          37.50385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 393,
+        "dong_name": "서울특별시 송파구 삼전동",
+        "dong_code": "1124064",
+        "dong_code_8": "11710610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09495,
+          37.50068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 394,
+        "dong_name": "서울특별시 송파구 가락본동",
+        "dong_code": "1124065",
+        "dong_code_8": "11710620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.12044,
+          37.49831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 395,
+        "dong_name": "서울특별시 송파구 가락1동",
+        "dong_code": "1124066",
+        "dong_code_8": "11710631"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10815,
+          37.49553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 396,
+        "dong_name": "서울특별시 송파구 가락2동",
+        "dong_code": "1124067",
+        "dong_code_8": "11710632"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.12965,
+          37.49628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 397,
+        "dong_name": "서울특별시 송파구 문정1동",
+        "dong_code": "1124068",
+        "dong_code_8": "11710641"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.12813,
+          37.4904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 398,
+        "dong_name": "서울특별시 송파구 문정2동",
+        "dong_code": "1124069",
+        "dong_code_8": "11710642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.11934,
+          37.4772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 399,
+        "dong_name": "서울특별시 송파구 장지동",
+        "dong_code": "1124081",
+        "dong_code_8": "11710646"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13319,
+          37.48265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 400,
+        "dong_name": "서울특별시 송파구 위례동",
+        "dong_code": "1124082",
+        "dong_code_8": "11710647"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.14171,
+          37.4828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 401,
+        "dong_name": "서울특별시 송파구 잠실본동",
+        "dong_code": "1124071",
+        "dong_code_8": "11710650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08305,
+          37.50762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 402,
+        "dong_name": "서울특별시 송파구 잠실2동",
+        "dong_code": "1124079",
+        "dong_code_8": "11710670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08107,
+          37.51761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 403,
+        "dong_name": "서울특별시 송파구 잠실3동",
+        "dong_code": "1124080",
+        "dong_code_8": "11710680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09238,
+          37.5115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 404,
+        "dong_name": "서울특별시 송파구 잠실4동",
+        "dong_code": "1124075",
+        "dong_code_8": "11710690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10529,
+          37.5226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 405,
+        "dong_name": "서울특별시 송파구 잠실6동",
+        "dong_code": "1124077",
+        "dong_code_8": "11710710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09894,
+          37.51872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 406,
+        "dong_name": "서울특별시 송파구 잠실7동",
+        "dong_code": "1124078",
+        "dong_code_8": "11710720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07469,
+          37.50575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 407,
+        "dong_name": "서울특별시 강동구 강일동",
+        "dong_code": "1125051",
+        "dong_code_8": "11740515"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.17614,
+          37.56221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 408,
+        "dong_name": "서울특별시 강동구 상일동",
+        "dong_code": "1125052",
+        "dong_code_8": "11740520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.16595,
+          37.55075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 409,
+        "dong_name": "서울특별시 강동구 명일1동",
+        "dong_code": "1125053",
+        "dong_code_8": "11740530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1438,
+          37.54906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 410,
+        "dong_name": "서울특별시 강동구 명일2동",
+        "dong_code": "1125054",
+        "dong_code_8": "11740540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.15697,
+          37.5471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 411,
+        "dong_name": "서울특별시 강동구 고덕1동",
+        "dong_code": "1125055",
+        "dong_code_8": "11740550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.15083,
+          37.56312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 412,
+        "dong_name": "서울특별시 강동구 고덕2동",
+        "dong_code": "1125056",
+        "dong_code_8": "11740560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.16186,
+          37.56474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 413,
+        "dong_name": "서울특별시 강동구 암사1동",
+        "dong_code": "1125072",
+        "dong_code_8": "11740570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13752,
+          37.55096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 414,
+        "dong_name": "서울특별시 강동구 암사2동",
+        "dong_code": "1125058",
+        "dong_code_8": "11740580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.12381,
+          37.55903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 415,
+        "dong_name": "서울특별시 강동구 암사3동",
+        "dong_code": "1125059",
+        "dong_code_8": "11740590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13675,
+          37.56028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 416,
+        "dong_name": "서울특별시 강동구 천호1동",
+        "dong_code": "1125061",
+        "dong_code_8": "11740600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13736,
+          37.54593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 417,
+        "dong_name": "서울특별시 강동구 천호2동",
+        "dong_code": "1125073",
+        "dong_code_8": "11740610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.12301,
+          37.54317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 418,
+        "dong_name": "서울특별시 강동구 천호3동",
+        "dong_code": "1125063",
+        "dong_code_8": "11740620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13328,
+          37.54077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 419,
+        "dong_name": "서울특별시 강동구 성내1동",
+        "dong_code": "1125065",
+        "dong_code_8": "11740640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1265,
+          37.53135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 420,
+        "dong_name": "서울특별시 강동구 성내2동",
+        "dong_code": "1125066",
+        "dong_code_8": "11740650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.12757,
+          37.53351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 421,
+        "dong_name": "서울특별시 강동구 성내3동",
+        "dong_code": "1125067",
+        "dong_code_8": "11740660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13441,
+          37.52901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 422,
+        "dong_name": "서울특별시 강동구 길동",
+        "dong_code": "1125074",
+        "dong_code_8": "11740685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.14472,
+          37.53944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 423,
+        "dong_name": "서울특별시 강동구 둔촌1동",
+        "dong_code": "1125070",
+        "dong_code_8": "11740690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.14392,
+          37.5216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 424,
+        "dong_name": "서울특별시 강동구 둔촌2동",
+        "dong_code": "1125071",
+        "dong_code_8": "11740700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.14883,
+          37.5305
+        ]
+      }
+    }
+  ]
+}

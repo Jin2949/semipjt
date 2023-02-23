@@ -1,13 +1,15 @@
 # semipjt
 
-
-
-test합니다
-
-
-
-asdjasldk;jasd;lksajdlk;asjd;lasjdk;as
+git config --global core.autocrlf true
 
 
 
-sdafdasfdsafadsfsadfsafadsfsadf
+git pull
+
+git add .
+
+git commit -m '수정할내용'
+
+git pull
+
+git push

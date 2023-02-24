@@ -14,4 +14,5 @@ git pull
 
 git push
 
-test합니다 -형진님
+test합니다-연수님
+

@@ -91,31 +91,57 @@ import json
 
 @app.route("/map")
 def map():
-    # ---------------------------------------------------
-    # data load : DataFrame 작업
-    dataset = pd.read_csv("./datasets/제주관광공사_여행장소_20220322.csv", encoding="cp949")
-    df = dataset[dataset['장소상세설명']=='숙소']
-    geo_list = []
-    name_list = []
-    for i in range(len(df))[:100]:
-        lat   = df.iloc[i]['위도']
-        lng   = df.iloc[i]['경도']
-        sname = df.iloc[i]['장소명']
-        # print(lat, lng, sname)
-        geo_list.append((lat, lng))
-        name_list.append(sname)
-    # ---------------------------------------------------
-    # folium map
-    map = folium.Map(location=[33.41041350000001, 126.4913534], zoom_start=10,
-                     tiles='OpenStreetMap')  # Stamen Terrain')
-    plugins.MarkerCluster(geo_list, popups=name_list).add_to(map)
-    #---------------------------------------------------
-    # web browser에 보이기 위한 준비
-    map.get_root().width = "800px"
-    map.get_root().height = "600px"
-    html_str = map.get_root()._repr_html_()
-    # ---------------------------------------------------
+    bus_time_table = pd.read_csv('./datasets/bus_time_table.csv', encoding='cp949', sep=',', parse_dates=['기준_날짜'])
+    del_idx = bus_time_table[bus_time_table.isna().values == True].index
+    bus_time_table = bus_time_table.drop(del_idx, axis=0)
 
+
+
+    bus = pd.DataFrame()
+    bus['busdate'] = bus_time_table['기준_날짜']
+    bus['yy'] = bus_time_table['기준_날짜'].dt.year
+    bus['mm'] = bus_time_table['기준_날짜'].dt.month
+    bus['dd'] = bus_time_table['기준_날짜'].dt.day
+    bus['dong_id'] = bus_time_table['행정동_ID']
+    bus['guest_cnt'] = bus_time_table['버스_승객_수']
+    bus[['hh00', 'hh01',
+         'hh02', 'hh03', 'hh04', 'hh05',
+         'hh06', 'hh07', 'hh08', 'hh09',
+         'hh10', 'hh11', 'hh12', 'hh13',
+         'hh14', 'hh15', 'hh16', 'hh17',
+         'hh18', 'hh19', 'hh20', 'hh21',
+         'hh22', 'hh23']] = bus_time_table[['버스_승객_수_00시', '버스_승객_수_01시',
+                                            '버스_승객_수_02시', '버스_승객_수_03시', '버스_승객_수_04시', '버스_승객_수_05시',
+                                            '버스_승객_수_06시', '버스_승객_수_07시', '버스_승객_수_08시', '버스_승객_수_09시',
+                                            '버스_승객_수_10시', '버스_승객_수_11시', '버스_승객_수_12시', '버스_승객_수_13시',
+                                            '버스_승객_수_14시', '버스_승객_수_15시', '버스_승객_수_16시', '버스_승객_수_17시',
+                                            '버스_승객_수_18시', '버스_승객_수_19시', '버스_승객_수_20시', '버스_승객_수_21시',
+                                            '버스_승객_수_22시', '버스_승객_수_23시']].astype('int')
+
+    bus_mm03 = bus[(bus['dong_id'] // 100 == 11020) & (bus['mm'] == 3)].sort_values(['busdate'])
+
+    bus_mm03_totcnt = bus_mm03.groupby('dong_id')[['guest_cnt']].sum().reset_index()
+
+    state_geo = gpd.read_file('./datasets/seoul_geo_dong.geojson')
+    junggu_geo = state_geo[state_geo['adm_cd'].astype('int') // 100 == 11020]
+
+    here = [37.560914, 126.990202]
+    m = folium.Map(location=here, tiles="OpenStreetMap", zoom_start=14)
+
+    folium.GeoJson(junggu_geo).add_to(m)
+
+    m.choropleth(
+        geo_data=junggu_geo,
+        data=bus_mm03_totcnt,
+        columns=['dong_id', 'guest_cnt'],
+        key_on='feature.properties.adm_cd')
+
+    # ---------------------------------------------------
+    # web browser에 보이기 위한 준비
+    m.get_root().width = "800px"
+    m.get_root().height = "600px"
+    html_str = m.get_root()._repr_html_()
+    # ---------------------------------------------------
 
     return render_template('result_map.html'
                            , KEY_MYDATA=html_str)

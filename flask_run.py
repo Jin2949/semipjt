@@ -6,124 +6,85 @@ from flask import Flask, session, render_template, make_response, jsonify, reque
 import cx_Oracle
 import random
 
+# 데이터프레임
+import numpy as np
+import pandas as pd
+
+# 그래프그리기
+import matplotlib.pyplot as plt
+import seaborn as sns
+import folium
+from folium.plugins import MarkerCluster
+import googlemaps
+import geopandas as gpd
+import chart_studio.plotly as ply
+import chart_studio
+import plotly.express as px
+import cufflinks as cf
+import plotly.tools as tls
+import plotly.graph_objs as go
+import sklearn
+from sklearn.preprocessing import StandardScaler
+chart_studio.tools.set_credentials_file(username='hyungjin2949', api_key='3PFvNSDNm2fakf9xJ1UI')
+
+
+#정규표현식
+import re
+
+#플라스크 및 데이터 관리
+import requests
+import json
+
+# 크롤링 및 DB생성
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+from selenium.webdriver.common.keys import Keys
+from youtubesearchpython import VideosSearch
+from sqlalchemy import create_engine
+
+
 app = Flask(__name__)
 app.secret_key = "1111122222"
 
 
 @app.route('/')
 def index():
-    # session['MY_TEL_SESSION'] = tel
-    # session.pop('MY_TEL_SESSION')
-    return render_template('index.html')
+    junggu_geo = gpd.read_file('./datasets/junggu_geo.geojson')
+    bus_3month_dong_tot = pd.read_csv('./datasets/bus_3month_dong_tot.csv')
 
-@app.route('/form_get', methods=['GET'])
-def form_get():
-    id = request.args.get("userid")
-    pw = request.args.get("userpw")
-    print("id:", id)
-    print("pw:", pw)
-    return render_template('result.html', KEY_MYDATA=[id, pw])
-    # ------------html---------
-    # {{KEY_MYDATA[0]}}
-    # {{KEY_MYDATA[1]}}
+    tt = dict(sorted(bus_3month_dong_tot.astype(int).values.tolist()))
+    junggu_geo['cnt'] = junggu_geo['adm_cd'].astype(int).map(tt)
 
-@app.route('/form_post', methods=['POST'])
-def form_post():
-    id = request.form.get("userid")
-    pw = request.form.get("userpw")
-    var_list_dict = [{"KID": id, "KPW": pw},
-                     {"KID": "kim", "KPW": 111},
-                     {"KID": "park", "KPW": 222}]
+    here = [37.560914, 126.990202]
+    m = folium.Map(location=here, tiles="OpenStreetMap", zoom_start=14)
 
-    return render_template('result.html', KEY_MYDATA=var_list_dict)
+    folium.GeoJson(junggu_geo).add_to(m)
 
+    cp = folium.Choropleth(
+        geo_data=junggu_geo,
+        data=bus_3month_dong_tot,
+        columns=['dong_id', 'guest_cnt'],
+        key_on='feature.properties.adm_cd').add_to(m)
 
-@app.route('/form_rest_text_text', methods=['POST'])
-def form_rest_text_text():
-    id = request.form.get("userid")
-    print("id:", id)
-    return "나 서버야 내가 줄께"
+    folium.GeoJsonTooltip(['temp', 'cnt']).add_to(cp.geojson)
 
-@app.route('/form_rest_json_text', methods=['POST'])
-def form_rest_json_text():
-    dic = request.get_json()
-    print(dic)
-    return "나 서버야 내가 줄께"
+    # ---------------------------------------------------
+    # web browser에 보이기 위한 준비
+    # m.get_root().width = "800px"
+    # m.get_root().height = "600px"
+    html_str = m.get_root()._repr_html_()
+    # ---------------------------------------------------
 
+    return render_template('index.html', KEY_MYDATA=html_str)
 
-@app.route('/form_rest_json_json', methods=['POST'])
-def form_rest_json_json():
-    dic = request.get_json()
-    print(dic)
-    return jsonify( {"msg" : "나 서버야 내가 줄께"} )
-
-@app.route('/form_rest_uri/<prm1>/<prm2>', methods=['POST'])
-def form_rest_uri(prm1, prm2):
-    print(prm1, prm2)
-    return "나 서버야 내가 줄께"
-
-
-
-import pandas as pd
-import numpy as np
-import folium
-from folium import plugins
-import re
-import googlemaps
-import pprint
-
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-import re
-import pprint
-
-import folium
-from folium.plugins import MarkerCluster
-import googlemaps
-import geopandas as gpd
-
-import requests
-import json
 
 
 @app.route("/map")
 def map():
-    bus_time_table = pd.read_csv('./datasets/bus_time_table.csv', encoding='cp949', sep=',', parse_dates=['기준_날짜'])
-    del_idx = bus_time_table[bus_time_table.isna().values == True].index
-    bus_time_table = bus_time_table.drop(del_idx, axis=0)
-
-
-
-    bus = pd.DataFrame()
-    bus['busdate'] = bus_time_table['기준_날짜']
-    bus['yy'] = bus_time_table['기준_날짜'].dt.year
-    bus['mm'] = bus_time_table['기준_날짜'].dt.month
-    bus['dd'] = bus_time_table['기준_날짜'].dt.day
-    bus['dong_id'] = bus_time_table['행정동_ID']
-    bus['guest_cnt'] = bus_time_table['버스_승객_수']
-    bus[['hh00', 'hh01',
-         'hh02', 'hh03', 'hh04', 'hh05',
-         'hh06', 'hh07', 'hh08', 'hh09',
-         'hh10', 'hh11', 'hh12', 'hh13',
-         'hh14', 'hh15', 'hh16', 'hh17',
-         'hh18', 'hh19', 'hh20', 'hh21',
-         'hh22', 'hh23']] = bus_time_table[['버스_승객_수_00시', '버스_승객_수_01시',
-                                            '버스_승객_수_02시', '버스_승객_수_03시', '버스_승객_수_04시', '버스_승객_수_05시',
-                                            '버스_승객_수_06시', '버스_승객_수_07시', '버스_승객_수_08시', '버스_승객_수_09시',
-                                            '버스_승객_수_10시', '버스_승객_수_11시', '버스_승객_수_12시', '버스_승객_수_13시',
-                                            '버스_승객_수_14시', '버스_승객_수_15시', '버스_승객_수_16시', '버스_승객_수_17시',
-                                            '버스_승객_수_18시', '버스_승객_수_19시', '버스_승객_수_20시', '버스_승객_수_21시',
-                                            '버스_승객_수_22시', '버스_승객_수_23시']].astype('int')
-
-    bus_mm03 = bus[(bus['dong_id'] // 100 == 11020) & (bus['mm'] == 3)].sort_values(['busdate'])
-
-    bus_mm03_totcnt = bus_mm03.groupby('dong_id')[['guest_cnt']].sum().reset_index()
-
-    state_geo = gpd.read_file('./datasets/seoul_geo_dong.geojson')
-    junggu_geo = state_geo[state_geo['adm_cd'].astype('int') // 100 == 11020]
+    junggu_geo = gpd.read_file('./datasets/junggu_geo.geojson')
+    bus_3month_dong_tot = pd.read_csv('./datasets/bus_3month_dong_tot.csv')
 
     here = [37.560914, 126.990202]
     m = folium.Map(location=here, tiles="OpenStreetMap", zoom_start=14)
@@ -132,7 +93,7 @@ def map():
 
     m.choropleth(
         geo_data=junggu_geo,
-        data=bus_mm03_totcnt,
+        data=bus_3month_dong_tot,
         columns=['dong_id', 'guest_cnt'],
         key_on='feature.properties.adm_cd')
 

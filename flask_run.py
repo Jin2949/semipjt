@@ -108,6 +108,22 @@ def map():
                            , KEY_MYDATA=html_str)
 
 
+@app.route("/test")
+def test():
+    apikey = "473c1af10b279e7bfb41d61f2b74b7f0"
+    city = "Seoul"
+    lang = 'kr'  # 언어
+    units = 'metric'  # 화씨 온도를 섭씨 온도로 변경
+    api = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apikey}&lang={lang}&units={units}"
+
+    result = requests.get(api)
+    result = json.loads(result.text)
+
+    print(result)
+
+    return render_template('test.html')
+
+
 
 if __name__ == '__main__':
     app.debug = True

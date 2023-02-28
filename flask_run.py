@@ -51,30 +51,52 @@ app.secret_key = "1111122222"
 
 @app.route('/')
 def index():
+    # 중구 3월 주중
     junggu_geo = gpd.read_file('./datasets/junggu_geo.geojson')
-    bus_3month_dong_tot = pd.read_csv('./datasets/bus_3month_dong_tot.csv')
+    junggu_3mm = pd.read_csv('./datasets/버스중구3월.csv')
+    junggu_3mm_dong_cnt_wd = junggu_3mm[junggu_3mm['wd'] == 0].groupby('dong_id')[['g_cnt']].mean().reset_index()
 
-    tt = dict(sorted(bus_3month_dong_tot.astype(int).values.tolist()))
-    junggu_geo['cnt'] = junggu_geo['adm_cd'].astype(int).map(tt)
+    total = junggu_3mm['g_cnt'].sum()
+    
 
     here = [37.560914, 126.990202]
-    m = folium.Map(location=here, tiles="OpenStreetMap", zoom_start=14)
+    m1 = folium.Map(location=here, tiles="OpenStreetMap", zoom_start=13)
 
-    folium.GeoJson(junggu_geo).add_to(m)
+    folium.GeoJson(junggu_geo).add_to(m1)
 
-    cp = folium.Choropleth(
+    m1.choropleth(
         geo_data=junggu_geo,
-        data=bus_3month_dong_tot,
-        columns=['dong_id', 'guest_cnt'],
-        key_on='feature.properties.adm_cd').add_to(m)
-
-    folium.GeoJsonTooltip(['temp', 'cnt']).add_to(cp.geojson)
+        data=junggu_3mm_dong_cnt_wd,
+        columns=['dong_id', 'g_cnt'],
+        key_on='feature.properties.adm_cd')
 
     # ---------------------------------------------------
     # web browser에 보이기 위한 준비
     # m.get_root().width = "800px"
     # m.get_root().height = "600px"
-    html_str = m.get_root()._repr_html_()
+    html_str1 = m1.get_root()._repr_html_()
+    # ---------------------------------------------------
+
+    # 중구 3월 주말
+    junggu_3mm_dong_cnt_we = junggu_3mm[junggu_3mm['wd'] == 1].groupby('dong_id')[['g_cnt']].mean().reset_index()
+
+    here = [37.560914, 126.990202]
+    m2 = folium.Map(location=here, tiles="OpenStreetMap", zoom_start=13)
+
+    folium.GeoJson(junggu_geo).add_to(m2)
+
+    m2.choropleth(
+        geo_data=junggu_geo,
+        data=junggu_3mm_dong_cnt_we,
+        columns=['dong_id', 'g_cnt'],
+        key_on='feature.properties.adm_cd',
+        fill_color = 'Reds')
+
+    # ---------------------------------------------------
+    # web browser에 보이기 위한 준비
+    # m.get_root().width = "800px"
+    # m.get_root().height = "600px"
+    html_str2 = m2.get_root()._repr_html_()
     # ---------------------------------------------------
 
 
@@ -89,7 +111,7 @@ def index():
     result = json.loads(result.text)
     print(result)
 
-    return render_template('index.html', KEY_MYDATA=html_str, weather=result)
+    return render_template('index.html', KEY_MYDATA1=html_str1, KEY_MYDATA2=html_str2, weather=result, total=total)
 
 
 

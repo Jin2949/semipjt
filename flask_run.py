@@ -20,7 +20,7 @@ import geopandas as gpd
 import chart_studio.plotly as ply
 import chart_studio
 import plotly.express as px
-import cufflinks as cf
+# import cufflinks as cf
 import plotly.tools as tls
 import plotly.graph_objs as go
 import sklearn

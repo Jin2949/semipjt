@@ -212,11 +212,26 @@
 					</ul>
 				</div>
 			</div>
+
 			<div class="main-panel">
 				<div class="content">
 					<div class="container-fluid">
-						<h4 class="page-title">중구 3월</h4>
+						<h4 class="page-title">중구 3월 22.03 기준</h4>
+<!--			<form method="post" action="/form_rest">-->
+<!--				<input type="button" name="add"    id="rest_button_text_text1" value="text_text버튼1">-->
+<!--				<input type="button" name="add"    id="rest_button_text_text2" value="text_text버튼2">-->
+<!--			</form>-->
+
+
+
+
 						<div class="row">
+
+
+
+
+
+
 							<div class="col-md-3">
 								<div class="card card-stats card-warning">
 									<div class="card-body ">
@@ -228,8 +243,8 @@
 											</div>
 											<div class="col-7 d-flex align-items-center">
 												<div class="numbers">
-													<p class="card-category">3월 거주 인구</p>
-													<h4 class="card-title">1,294</h4>
+													<p class="card-category">중구 거주 인구</p>
+													<h4 class="card-title">{{population_tot}}명</h4>
 												</div>
 											</div>
 										</div>
@@ -248,7 +263,7 @@
 											<div class="col-7 d-flex align-items-center">
 												<div class="numbers">
 													<p class="card-category">3월 버스 승객수</p>
-													<h4 class="card-title">{{total}}명</h4>
+													<h4 class="card-title">{{polpulation_bus}}명</h4>
 												</div>
 											</div>
 										</div>
@@ -387,7 +402,9 @@
 <!--											<a href="https://plotly.com/~error-_-/11/?share_key=7aH0Sd6BJyiVDnCbNaCSVv" target="_blank" title="중구3월주말시간별평균" style="display: block; text-align: center;"><img src="https://plotly.com/~error-_-/11.png?share_key=7aH0Sd6BJyiVDnCbNaCSVv" alt="중구3월주말시간별평균" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>-->
 <!--											<script data-plotly="error-_-:11" sharekey-plotly="7aH0Sd6BJyiVDnCbNaCSVv" src="https://plotly.com/embed.js" async></script>-->
 <!--										</div>-->
-									<div class="area">
+
+
+									<div class="area1">
 										<iframe class="video" frameborder="0" scrolling="no" src="//plotly.com/~error-_-/9.embed"></iframe>
 									</div>
 
@@ -408,7 +425,7 @@
 <!--									<div class="card-body">-->
 <!--										<div class="chart-circle mt-4 mb-3"></div>-->
 <!--									</div>-->
-									<div class="area">
+									<div class="area2">
 										<iframe class="video" frameborder="0" scrolling="no" src="//plotly.com/~error-_-/11.embed"></iframe>
 									</div>
 
@@ -434,7 +451,8 @@
 									<div class="card-header">
 										<h4 class="card-title">중구 3월 주중</h4>
 										<p class="card-category">
-										Map of the distribution of users around the world</p>
+											중구 3월 주중 총 이용객
+										</p>
 									</div>
 									<div class="card-body">
 										<div class="mapcontainer">
@@ -452,7 +470,8 @@
 									<div class="card-header">
 										<h4 class="card-title">중구 3월 주말</h4>
 										<p class="card-category">
-										Map of the distribution of users around the world</p>
+											중구 3월 주말 총 이용객
+										</p>
 									</div>
 									<div class="card-body">
 										<div class="mapcontainer">
@@ -468,13 +487,35 @@
 
 
 						</div>
+
+
+
 						<div class="row row-card-no-pd">
+
+
+
+
+<!-- 유튜브 구현-->
+<form class="navbar-left navbar-form nav-search mr-md-3" id="rest_button_text_text1" action="/form_rest">
+	<div class="input-group">
+		<input type="text" placeholder="Search ..." class="form-control">
+		<div class="input-group-append">
+			<span class="input-group-text">
+				<i class="la la-search search-icon"></i>
+			</span>
+		</div>
+	</div>
+</form>
+
 							<div class="col-md-4">
 								<div class="card">
 									<div class="card-body">
 										<p class="fw-bold mt-1">오늘 탈까말까</p>
 										<h4><b>$ 3,018</b></h4>
 										<a href="#" class="btn btn-primary btn-full text-left mt-3 mb-3"><i class="la la-plus"></i> Add Balance</a>
+
+
+
 									</div>
 									<div class="card-footer">
 										<ul class="nav">
@@ -560,6 +601,9 @@
 									</div>
 								</div>
 							</div>
+
+
+
 						</div>
 						<div class="row">
 							<div class="col-md-4">
@@ -815,7 +859,13 @@
 <script src="../static/js/demo.js"></script>
 
 <style>
-.area {
+.area1 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.area2 {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
@@ -828,5 +878,34 @@
 }
 
 </style>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+    $(document).on("click","#rest_button_text_text1",function() {
+
+        var postdata = {
+                'id':'jin', 'password':'1234', 'email':'asdsadfjkl@naver.com'
+        }
+        $.ajax({ url: '{{url_for("ajax")}}',
+                 type      : "POST",
+                 data: JSON.stringify(postdata),
+                 dataType    : "JSON" ,
+                 contentType: "application/json",
+                 error       : function(aaa){ alert('에러입니다') },
+                 success     : function(data){
+                 	console.log('안녕하세요')
+                 	console.log(data)
+                            $('.area1').empty()
+                            $('.area1').append('<iframe class="video" frameborder="0" scrolling="no" src="//plotly.com/~error-_-/9.embed"></iframe>')
+                 }
+        });
+    });
+});
+</script>
+
+
 
 </html>

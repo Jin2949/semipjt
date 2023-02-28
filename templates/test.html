@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>
+        Flask #2
+    </title>
 </head>
 <body>
 
-test합니다.
+
+
+<hr>
+
+RESTful - get/post<br>
+<form method="post" action="/form_rest">
+<input type="text"   name="userid">
+<input type="text"   name="userpw" ><br>
+<input type="button" name="add"    id="rest_button_text_text" value="text_text버튼">
+<input type="button" name="add"    id="rest_button_json_text" value="json_text버튼">
+<input type="button" name="add"    id="rest_button_json_json" value="json_json버튼">
+<input type="button" name="add"    id="rest_button_uri" value="json_uri버튼">
+</form><br>
+
+div2
+<div id='div2'>
+<hr>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+    $(document).on("click","#rest_button_text_text",function() {
+
+        var postdata = {
+                'id':'jin', 'password':'1234', 'email':'asdsadfjkl@naver.com'
+        }
+        $.ajax({ url: '{{url_for("ajax")}}',
+                 type      : "POST",
+                 data: JSON.stringify(postdata),
+                 dataType    : "JSON" ,
+                 contentType: "application/json",
+                 error       : function(aaa){ alert('에러입니다') },
+                 success     : function(data){
+                            $('#div2').empty()
+                            $('#div2').append('<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~error-_-/11.embed"></iframe>')
+                 }
+        });
+    });
+
+
+    $(document).on("click","#rest_button_json_text",function() {
+        $.ajax({ url         : "./form_rest_json_text" ,
+                 method      : "POST",
+                 data        : JSON.stringify({"userid":"hellodddd"}) ,
+                 contentType : "application/json; charset=UTF-8",  //내 데이터는 글씨에요
+                 dataType    : "text" , //결과는 글씨로 주세요
+                 error       : function(aaa){ alert(aaa) },
+                 success     : function(bbb){
+                            console.log('2번입니다.')
+                  }
+        });
+    });
+
+
+    $(document).on("click","#rest_button_json_json",function() {
+        $.ajax({ url         : "./form_rest_json_json" ,
+                 method      : "POST",
+                 data        : JSON.stringify({"userid":"hellodddd"}) ,
+                 contentType : "application/json; charset=UTF-8",  //내 데이터는 글씨에요
+                 dataType    : "json" , //결과는 json로 주세요
+                 error       : function(aaa){ alert(aaa) },
+                 success     : function(res){
+                                    console.log('3번입니다.')
+                                    console.log(res["msg"])
+                                    // -------------------
+                                    json_str = JSON.stringify(res)
+                                    console.log(json_str)
+
+                                    json_obj = JSON.parse(json_str)
+                                    console.log(json_obj)
+                                    console.log(json_obj["msg"])
+
+                                }
+        });
+    });
+
+
+
+     $(document).on("click","#rest_button_uri",function() {
+        $.ajax({ url         : "./form_rest_uri/kim/111" ,
+                 method      : "POST",
+                 dataType    : "text" , //결과는 글씨로 주세요
+                 error       : function(aaa){ alert(aaa) },
+                 success     : function(bbb){
+                                    console.log('4번입니다.')
+                  }
+        });
+    });
+
+
+
+
+});
+</script>
+
 </body>
 </html>

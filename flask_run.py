@@ -104,7 +104,9 @@ def index():
         data=junggu_3mm_dong_cnt_wd1,
         columns=['dong_id', 'g_cnt_log'],
         fill_color='YlOrRd',
-        key_on='feature.properties.adm_cd').add_to(m2)
+        key_on='feature.properties.adm_cd',
+
+    ).add_to(m2)
     folium.GeoJsonTooltip(['동이름', '총이용객']).add_to(cp2.geojson)
 
     # ---------------------------------------------------
@@ -141,14 +143,39 @@ def index():
 
 
 
-@app.route("/test")
-def test():
-    return render_template('test.html')
+@app.route("/youtube",  methods=['GET'])
+def test(nrows=9):
+    search_str = request.args.get('youtube_char')
+
+    videosSearch = VideosSearch(search_str, limit=nrows)
+    json_res = videosSearch.result()
+
+    movie_list = json_res['result']
+
+    tot_list = []
+    for movie in movie_list:
+        dict = {}
+        # print(movie['thumbnails'][0]['url'])
+        # print(movie['link'])
+        # print(movie['title'])
+        dict["title"] = movie['title']
+        try:
+            dict["movie"] = movie['richThumbnail']['url']
+        except:
+            dict["movie"] = movie['thumbnails'][0]['url']
+
+        dict["img"] = movie['thumbnails'][0]['url']
+        dict["duration"] = movie['duration']
+        dict["url"] = movie['link']
+        dict["rdate"] = movie['publishedTime']
+        dict["cnt"] = movie['viewCount']['text']
+        tot_list.append(dict)
+
+    return render_template('test.html', KEY_youtube_list = tot_list)
 
 @app.route('/form_rest_text_text', methods=['GET', 'POST'])
 def ajax():
     data = request.get_json()
-    print(data)
     return jsonify(result="success", result2=data)
 
 
